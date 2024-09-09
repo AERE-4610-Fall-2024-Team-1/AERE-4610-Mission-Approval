@@ -1,0 +1,13 @@
+\chapter{Mission Overview}\label{cp:mission_overview}
+
+\section{Customer Problem}
+
+On the busiest games, Jack Trice Stadium can hold \num{61500} people, and protecting these people is the highest priority of the Iowa State University Police Department \citep{stadium}. Quadcopters and \acrfull{uavs} increasingly pose a threat to large gatherings and events as their violent use is popularized in armed conflicts such as the Russian-Ukrainian conflict \citep{thompson2024}. To protect against these threats, organizations like the Iowa State University Police Department and similar defensive organizations need tools to neutralize the threat posed by a terrorist or bad actor armed with a weaponized \acrshort{uav}.
+
+Traditional anti-aircraft systems are designed to target larger objects like airplanes or large \acrshort{uavs} and are generally ineffective against small targets such as the DJI Mavic 3 Pro quadcopter \citep{mavic3}. Additionally, the shrapnel and debris field produced by the explosives commonly found in traditional anti-aircraft systems are unsafe for civilian use at stadiums or event centers.
+
+Products like Anduril's Anvil—a defensive quadcopter—were created to fill this defense vacuum \citep{anvil}. The Anvil disables enemy \acrshort{uavs} by smashing into them at high speeds. The Iowa State University Police Department is looking for a more cost-effective, optionally-attritable, \acrfull{opv} that can patrol a large area over the entire duration of an event; function without an expensive, permanent ground-based detection system; and destroy enemy quadcopters with kinetic energy.
+
+\section{Proposed Solution}
+
+An (optionally) \acrfull{rc} aircraft that loiters at least \qty{150}{\meter} \acrfull{agl}. The aircraft should have enough battery to complete an hour long mission—multiple aircraft should be used simultaneously to ensure \qty{100}{\percent} coverage of an event. The aircraft will be equipped with several sensors for detecting enemy \acrshort{uavs}, including but not limited to \acrfull{sff} radar or a \acrfull{lidar} sensor. The aircraft must be able to disable an enemy quadcopter—estimated to be approximately \qty{5}{\kilo\joule}, which would require a minimum velocity of approximately \qty{45}{\meter\per\second} if the target were stationary—by ramming into it. The aircraft will also need to carry telemetry or communications equipment to communicate with a ground station.
